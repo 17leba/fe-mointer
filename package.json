@@ -1,0 +1,29 @@
+{
+  "name": "report-fe",
+  "version": "1.0.0",
+  "description": "前端监控包",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:17leba/fe-monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "global": "^4.4.0",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
